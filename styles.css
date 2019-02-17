@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon');
+
+html,body {
+  height:100%;
+  width:100%;
+  background-color: #d9d9d9;
+}
+
+body {
+ display:table;
+}
+
+.pencil {
+  position: absolute;
+  top: 50px;
+  left: 200px;
+  width: 20px;
+  height: 230px;
+}
+
+.main {
+  height: 195px;
+  width: 10px;
+  background-color: yellow;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+.shadow {
+  position: absolute;
+  height: 195px;
+  width: 10px;
+  top: 5px;
+  background-color: #e6e600;
+}
+
+.eraser {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: pink;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.point {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 30px solid #ffd480;
+  top: 200px;
+}
+
+.lead {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 2.75px solid transparent;
+  border-right: 2.75px solid transparent;
+  border-top: 10px solid black;
+  top: 224px;
+  left: 7.5px
+}
+
+.pencil, .page {
+  filter: drop-shadow(-10px 10px 5px #B2B2B2)
+}
+
+.page {
+  margin: 50px 300px 0px 300px;
+  background-color: white;
+  height-min: 200px;
+  width: 100;
+  font-family: 'Coming Soon';
+}
+
+.header {
+  font-size: 24px;
+  padding-top: 30px;
+  padding-left: 50px;
+  border-bottom-style: double;
+  border-bottom-color: red;
+}
+
+.words > p {
+  margin: 0px;
+  padding: 10px;
+  height: 20px;
+}
+
+.body {
+  margin-left: 50px;
+  border-left-style: double;
+  border-left-color: red;
+}
+
+.response {
+  text-align: right;
+  color: blue;
+}
